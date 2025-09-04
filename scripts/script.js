@@ -73,7 +73,7 @@ const gameOver = async (isVictory) => {
 
 }
 
-http://localhost:5500/?id=%22sss%22&chances=1
+/*http://localhost:5500/?id=%22sss%22&chances=1*/
 const initGame = (button, clickedLetter) => {
     // Checking if clickedLetter is exist on the currentWord
     if (currentWord.includes(clickedLetter)) {
